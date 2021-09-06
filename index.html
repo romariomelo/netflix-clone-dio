@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles/app.css" /> 
+    <link rel="stylesheet" href="styles/all.min.css" /> 
+    <link rel="stylesheet" href="styles/owl.carousel.min.css" /> 
+    <link rel="stylesheet" href="styles/owl.theme.default.min.css" /> 
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="content-header">
+          <div class="logo">
+            <img src="aa" alt="Reciclando" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Minha lista</a></li>
+              <li><a href="#">Séries</a></li>
+              <li><a href="#">Filmes</a></li>
+              <li><a href="#">Documentários</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="main-folder">
+          <article class="main-info">
+              <img src="aaa" alt="House Of Cards Logo" class="main-logo">
+              <p class="sinopse">O congressista Francis Underwood e sua mulher, Claire, fazem de tudo para conquistar seus objetivos, não importa o que aconteça. Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.</p>
+              <button class="btn-acoes"><i class="fas fa-play"></i> Assistir</button>
+              <button class="btn-acoes"><i class="fas fa-plus"></i> Adicionar a lista</button>
+          </article>
+      </section>
+      <section class="owl-carousel owl-theme">
+        <article class="item">
+          <img src="images/mini1.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini2.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini3.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini4.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini5.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini6.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini7.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini8.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini9.jpg" alt="Filme 1">
+        </article>
+
+        <article class="item">
+          <img src="images/mini10.jpg" alt="Filme 1">
+        </article>
+
+      </section>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    stagePadding: 50,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        },
+        1240: {items: 6},
+        1800: {items: 7},
+    }
+})
+    </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;900&display=swap");
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: Kanit, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.owl-stage {
+  padding-left: 0 !important;
+}
+
+.content-header {
+  background: black;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, black), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, black 20%, rgba(0, 0, 0, 0) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content-header nav {
+  padding-right: 5px;
+}
+
+.content-header nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.content-header nav ul li {
+  display: inline-block;
+}
+
+.content-header nav ul li a {
+  padding: 5px;
+}
+
+.content-header nav ul li a:hover {
+  color: #fff;
+}
+
+.content-header nav ul li:not(:last-child)::after {
+  content: '\2022';
+  color: #ddd;
+}
+
+.main-folder {
+  min-height: 500px;
+  padding-top: 50px;
+  background-image: url("../images/vickings.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.main-folder .main-info {
+  padding-left: 1rem;
+}
+
+.main-folder .main-info .main-logo {
+  min-width: 100px;
+}
+
+.main-folder .main-info .sinopse {
+  max-width: 500px;
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.btn-acoes {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: thin solid #fff;
+  padding: .7rem 1rem;
+  border-radius: 3px;
+  margin-right: .2rem;
+  cursor: pointer;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+.btn-acoes:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=app.css.map */
